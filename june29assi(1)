@@ -1,0 +1,17 @@
+emp={}
+empl=[]
+n=int(input('enter number of employees'))
+for i in range(1,n+1):
+    empl=[]
+    l=[]
+    empname=input('enter a employee name:')
+    l.append(empname)
+    empsal=int(input('employee salary:'))
+    l.append(empsal)
+    empphone=int(input('enter employee contactno:'))
+    l.append(empphone)
+    empl=l;
+    emp[i]=empl;
+print(emp)
+               
+    
